@@ -2,7 +2,7 @@ language: java
 jdk:
   - oraclejdk8
 sudo: false
-before_script: cd ./agile_ca
+
 script: mvn clean verify
 jdk:
   - oraclejdk8
@@ -10,4 +10,3 @@ jdk:
 notifications:
   email:
     - adriandi17@gmail.com
-   
