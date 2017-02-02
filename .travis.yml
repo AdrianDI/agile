@@ -1,9 +1,5 @@
 language: java
 before_script: cd agile
-jdk:
-  - oraclejdk8
-sudo: false
-
 script: mvn clean verify
 
 notifications:
