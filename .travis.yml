@@ -1,5 +1,5 @@
 language: java
-before_script: cd agile
+before_script: cd agile_ca
 script: mvn clean verify
 
 notifications:
